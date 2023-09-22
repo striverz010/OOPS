@@ -7,6 +7,7 @@ struct Demo{  //Declaring the Struct
 	int y;
 
 	void Display(){
+		
 		cout<<x<<" "<<y;
 	}
 
