@@ -13,14 +13,14 @@ public:
 		img=i;
 	}
 
-	Complex operator + (Complex &x){
+	Complex operator + (Complex &x){ 
 		Complex temp;
 		temp.real=real+x.real;
 		temp.img=img+x.img;
 		return temp;
 	}
 
-	void Display(){
+	void Display(){  
 
 		cout<<real<<"+i"<<img;
 	}
